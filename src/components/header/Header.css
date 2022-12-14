@@ -1,0 +1,121 @@
+.navBarMenuText{
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 15px;
+    color:#fd841f ;
+    font-weight: bold;
+}
+.navBarMenuText:hover{
+    color:   #ffddb7;
+}
+.headerLoginBtn{
+    border:none;
+    background-color: #0f2027;
+    color: #fd841f;
+    padding: 0px 20px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.headerLoginBtn:hover{
+    color:   #ffddb7;
+}
+.headerSignupBtn{
+    border:none;
+    background-color: #fd841f;
+    color: #0f2027;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+.headerSignupBtn:hover{
+    box-shadow: 2px 2px 10px #fd841f;
+    background-color: #0f2027;
+    color: #fd841f;
+    transition: .3s;
+    
+}
+.headerNextSection{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: .4fr 3fr .14fr;
+    justify-content: center;
+    align-content: center;
+}
+
+.dropbtn {
+    background-color: black;
+    color: #fd841f;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 5px 10px #fd841f;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+  }
+  .dropbtn:hover{
+    box-shadow: 2px 2px 10px #fd841f;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fd841f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+  }
+  
+  .dropdown-content a {
+    color: #0f2027;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {
+    background-color: black;
+    color: #fd841f;
+    border-radius: 8px;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .headerSearchField{
+    width: 100%;
+    padding: 13px 0px;
+    box-shadow: 2px 2px 10px #fd841f;
+    border: none;
+    border-radius: 25px;
+    background-color: black;
+  }
+  .headerSearchField:hover{
+    box-shadow: 2px 5px 10px #fd841f;
+  }
+  .headerShoppingCart{
+    box-shadow: 2px 2px 10px #fd841f;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 25px;
+    background-color: black;
+  }
+.headerShoppingCart:hover{
+    box-shadow: 2px 5px 10px #fd841f;
+  }
+
+        
