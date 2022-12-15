@@ -102,6 +102,7 @@
     border: none;
     border-radius: 25px;
     background-color: black;
+    color: #fd841f;
   }
   .headerSearchField:hover{
     box-shadow: 2px 5px 10px #fd841f;

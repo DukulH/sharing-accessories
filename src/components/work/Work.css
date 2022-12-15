@@ -1,0 +1,68 @@
+.middleSection {
+  width: 90%;
+  height: 550px;
+  background-color: #fd841f;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftSideOfMiddleSection {
+  width: 40%;
+  margin-left: 50px;
+  margin: auto;
+  color: #0f2833;
+}
+.leftSideOfMiddleSection button {
+  border: none;
+  background-color: #0f2027;
+  color: #fd841f;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.leftSideOfMiddleSection button:hover {
+  box-shadow: 2px 2px 10px #0f2027;
+  background-color: #fd841f;
+  color: #0f2027;
+  transition: 0.5s;
+}
+
+.rightSideOfMiddleSection {
+  width: 45%;
+}
+.chooseSection {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.leftChooseSection {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  
+}
+.rightChooseSection{
+    width: 60%;
+    text-align: start;
+    color:#fd841f ;
+}
+.describeSection{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 100px;
+    background-color: #fd841f;
+    align-content: center;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px ;
+    margin-bottom: 50px;
+    justify-content: center;
+}
