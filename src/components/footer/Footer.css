@@ -1,0 +1,59 @@
+.getInTouchBtn{
+    border: 1px solid #fd841f;
+    background-color: #0f2027;
+    color: #fd841f;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.footerSecondSection{
+    margin:30px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color:#fd841f ;
+    border-bottom: 2px solid #fd841f;
+}
+
+.footerSecondSection p a {
+    color: #fd841f;
+    text-decoration: none;
+}
+.footerSecondSection p a:hover{
+    text-decoration: underline;
+}
+
+.footerSecondSection input {
+    background-color: #0f2027;
+    color: #fd841f;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 0px;
+    border: 1px solid #fd841f;
+    text-indent: 8%;
+}
+.footerSecondSection select {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #0f2027;
+    border: 1px solid #fd841f;
+    color: #fd841f;
+    text-indent: 8%;
+}
+
+.footerThirdSection{
+    display: grid;
+    grid-template-columns:.5fr 2fr 1fr;
+    color: #fd841f;
+    margin-bottom: 40px;
+}
+
+.footerThirdSection a {
+    color: #fd841f;
+    text-decoration: none;
+}
+.footerThirdSection a:hover{
+    text-decoration: underline;
+    color: #fd841f;
+}

@@ -5,6 +5,7 @@ import demo2 from "../../assets/demo2.jpg";
 import demo3 from "../../assets/demo3.png";
 import demo4 from "../../assets/demo4.png";
 import Header from "../header/Header";
+import Footer from "../footer/Footer";
 export default function Work() {
   return (
     <>
@@ -118,6 +119,7 @@ export default function Work() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

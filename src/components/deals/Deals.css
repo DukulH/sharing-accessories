@@ -1,0 +1,31 @@
+.dealsSection{
+    width:90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: .7fr 3fr;
+    margin-bottom: 80px;
+}
+.dealsLeftSection{
+    
+}
+.rentDurationButton{
+    border: .5px solid #fd841f;
+    color: #fd841f;
+    background-color: #0f2027;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.dealsLeftSectionFirstPart{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+}
+.dealsLeftSectionSecondPart{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.dealsRightSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

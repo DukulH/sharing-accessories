@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import './App.css';
+import Deals from "./components/deals/Deals";
 import Home from "./components/home/Home";
 import Work from "./components/work/Work";
 
@@ -22,8 +23,8 @@ function App() {
         <Route path="/works">
           <Work />
         </Route>
-        <Route path="/">
-      
+        <Route path="/deals">
+          <Deals />
         </Route>
       </Switch>
   </Router>

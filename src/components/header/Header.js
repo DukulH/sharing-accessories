@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import logo from "../../assets/logo.png";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import { Link } from "react-router-dom";
+import zIndex from "@mui/material/styles/zIndex";
 
 export default function Header() {
   return (
@@ -19,7 +20,8 @@ export default function Header() {
         width: "100%",
         position: "fixed",
         height: "180px",
-        backgroundColor:"#0f2027"
+        backgroundColor:"#0f2027",
+        zIndex:100
       }}
       >
         <Navbar style={{ width: "90%" }} className="m-auto">
@@ -41,7 +43,7 @@ export default function Header() {
                 <Link className="navBarMenuText" to="/action2">
                   TOP PRODUCTS
                 </Link>
-                <Link className="navBarMenuText" to="/action2">
+                <Link className="navBarMenuText" to="/deals">
                   DEALS
                 </Link>
               </Nav>

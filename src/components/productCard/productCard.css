@@ -1,0 +1,7 @@
+.productCardDesign{
+ margin-left: 50px;
+ margin-bottom: 20px;
+}
+.productCardDesign:hover{
+    box-shadow: 0 0 15px #fd841f;
+}
